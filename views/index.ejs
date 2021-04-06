@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Favourite Albums App</title>
+</head>
+
+<body>
+	<h1> Favourite album database. </h1>
+
+<form action="/quotes" method="POST">
+
+	<input type="text" placeholder="name" name="name">
+	<input type="text" placeholder="artist" name="artist">
+	<input type="text" placeholder="album" name="album">
+	<button type="submit">Submit</button>
+
+</form>
+
+<h2> List of Favourite Albums </h2>
+
+<ul class="albums">
+	<!-- Loop -->
+	<% for(var i = 0; i < albums.length; i++) {%>
+		<li class="album">
+			<!-- Output name from the iterated name object -->
+			<span><%= albums[i].name %></span>:
+			<!-- Outpuit quote from the iterated artist object -->
+			<span><%= albums[i].artist %> - </span>
+			<span><%= albums[i].album %></span>
+		</li>
+	<% } %>
+</ul>
+
+<div>
+	<h2>Oh no! Swifty!</h2>
+	<p>
+		Replace first of Evan's favourite albums with a Taylor Swift album
+	</p> 
+	<button id="update-button">Replace Evan's choice</button>
+</div>
+<div>
+	<h2> Get out of here, Swifty! </h2>
+	<p>
+		Delete one of the Swifty's additions. Does nothing if there are no more Swifty albums.
+	</p>
+	<button id="delete-button">Delete Swifty's Album Choice</button>
+</div>
+<div id="message"></div>
+
+<script src="/main.js"></script>
+</body>
+</html>
+
