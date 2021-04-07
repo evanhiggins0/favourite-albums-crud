@@ -6,6 +6,8 @@ Demo CRUD app using Node.js, Express and MongoDB.
 
 git clone https://github.com/evanhiggins0/favourite-albums-crud
 
+cd favourite-albums-crud
+
 npm install
 
 npm start
