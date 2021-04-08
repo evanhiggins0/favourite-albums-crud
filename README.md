@@ -11,6 +11,7 @@ I then applied this to my own idea.
 <u>The app does not have any style as of yet, as it is in the early stages of development
 and I'm not sure as to what it will end up being just yet.</u>
 <br>
+
 <b>Hosted online here:</b> https://favouritealbums.herokuapp.com/
 
 <b>Run locally</b>
