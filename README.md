@@ -4,10 +4,6 @@ Demo barebones CRUD app using Node.js, Express and MongoDB.
 
 The app is designed to show the aspects of CRUD design, in a very simplistic manner.
 
-To create this, I followed a tutorial posted here: https://zellwk.com/blog/crud-express-mongodb/
-
-I then applied this to my own idea. 
-
 <u>The app does not have any style as of yet, as it is in the early stages of development
 and I'm not sure as to what it will end up being just yet.</u>
 <br>
