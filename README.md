@@ -22,7 +22,7 @@ If you do not have these installed, you can check out how here:
 
 https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 
-Once you have these installed, you can do run the app locally by executing the following in your shell:
+Once you have these installed, you can run the app locally by executing the following in your shell:
 ```
 git clone https://github.com/evanhiggins0/favourite-albums-crud
 
